@@ -57,7 +57,9 @@ header{
 }
 body{
     margin: 0;
-    
+    /* overflow: hidden;
+    width:100% ;
+    height: 100%; */
     
 }
 .bg{
@@ -98,7 +100,6 @@ body{
 .Future{
     display: grid;
     align-items: center;
-    gap: 30px;
     padding-top: 14px;
     grid-template-columns: auto auto;
     
@@ -135,7 +136,7 @@ body{
     font-size:58px;
     color: #252B42;
     
-    max-width: 338px;
+    max-width:400px;
     
     
 }
@@ -143,7 +144,7 @@ body{
     font-size: 20px;
     color: #737373;
     margin: 0;
-    max-width: 142px;
+    max-width: 334px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.20000000298023224px;
@@ -157,9 +158,6 @@ body{
     flex-direction: column;
     width: 599px;
     
-}
-.Future .rightside img{
-    padding-right: 50px;
 }
 
 .cards{
@@ -192,7 +190,7 @@ body{
 .cards h3{
     font-size: 16px;
     color: #252B42;
-    width: 200px;
+    max-width: 200px;
     height: 24px;
     line-height: 24px;
     letter-spacing: 0.10000000149011612px;
@@ -280,24 +278,42 @@ body{
     background-color: #E74040;
     margin: 0%;
     border: none;
-    width: 94px;
+    max-width: 94px;
     height: 7px;
-    
+
 }
 .section-activity .rightside .rightmain h2{
     font-size: 40px;
     color: #252B42;
+    max-width: 253px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    
 }
 .section-activity .rightside .rightmain p{
-
     font-size: 14px;
     color: #737373;
+    max-width: 351px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
 }
 .activity-link .linkdom{
     color: #23A6F0;
     text-decoration: none;
     display: flex;
     align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
 }
 .section-activity.rightside{
     padding: 5px 21px;
@@ -336,20 +352,31 @@ body{
     color:#23A6F0;
     font-size: 14px;
     margin: 0;
-   
+    max-width: 120px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
 
 }
 .practice_advice .topside h1{
     color: #fff;
     font-size: 40px;
     margin: 0%;
+    max-width: 650px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
 
 }
 .practice_advice .topside p{
     font-size: 14px;
     color: #fff;
     font-weight: 400;
-    width: 469px;
+    max-width: 469px;
+    height: 40px ;
 
 }
 /* productcards productcards productcards productcards productcards productcards */
@@ -381,7 +408,7 @@ body{
     gap: 10px;
     background-color: #fff;
     padding: 21px 32px 6px 23px;
-    width: 341px;
+    max-width: 341px;
     height: 322px;
    
 }
