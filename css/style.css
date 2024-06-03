@@ -612,10 +612,10 @@ body{
     display: flex;
     align-items: center;
     /* width: 1045px; */
-    gap: 5px;
+    gap: 40px;
     padding: 0%;
     margin: 0%;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     position: relative;
 }
 .pricing-tables .table{
@@ -781,8 +781,8 @@ body{
     border-radius: 52px;
     background-color: #E77C40;
     position: absolute;
-    bottom: 850px;
-    left: 700px;
+    bottom: 836px;
+    left: 668px;
 
 }
 .pricing-tables .new-logo h3{
@@ -1085,11 +1085,11 @@ h6{
 .footerbottomside {
     display: flex;
     align-items: center;
-    gap: 100px;
+    gap: 239px;
     background-color: #FAFAFA;
     padding: 25px, 0px, 25px, 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;;
     
 }
 .bottomside-bg{
@@ -1121,7 +1121,7 @@ h6{
     width: 236px;
     align-items:center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     
 }
 .footerbottomside .rightside i{
