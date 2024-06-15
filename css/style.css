@@ -22,13 +22,13 @@ p{
    display: flex;
    align-items: center;
    gap:30px;
-   padding: 0px 15px;
+   /* padding: 0px 15px; */
    padding-top: 15px;
    
 }
 .main-navbar h3{
     font-size: 24px;
-    max-width: 210px;
+    width: 22%;
     /* height: 58px; */
     display: flex;
     color: #252B42;
@@ -98,9 +98,10 @@ body{
 }
 .navbar{
     display: flex;
-    gap: 315px;
+    /* gap: 315px; */
+    justify-content: space-between;
     align-items: center;
-    /* width: 300px; */
+    width: 100%;
 
 }
 .t-button{
@@ -117,8 +118,8 @@ body{
 .hero-section-1{
     display: grid;
     align-items: center;
-    padding-top: 14px;
-    grid-template-columns: auto auto;
+    /* padding-top: 14px; */
+    grid-template-columns: 1fr 1fr;
     
 }
 .main-navbar{
@@ -166,11 +167,11 @@ body{
 
 } */
 .hero-section-1 .content{
-    margin: 12px 16px;
+    /* margin: 12px 16px; */
     gap: 45px;
     display: flex;
     flex-direction: column;
-    width: 544px;
+    /* width: 544px; */
     
 }
 
@@ -269,10 +270,7 @@ body{
 .Layout-section-2{
     display: flex;
      align-items: center;
-    /* justify-content: space-between; */
-    /* width: 1050px;
-    height: 567px; */
-    gap: 200px;
+    justify-content: space-between;
 }
 
 .Layout-section-2 .leftside{
@@ -341,11 +339,14 @@ body{
     display: grid;
     align-items: center;
     justify-content: space-evenly;
-    grid-template-columns: auto auto auto auto auto auto;
-    gap: 30px;
-    /* height: 191px; */
+    grid-template-columns:repeat(6, 1fr);
     padding-top: 50px;
     padding-bottom: 50px;
+}
+.companies-section .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* practice-section practice-section practice-section practice-section practice-section practice-section */
 .bg-practice-section{
@@ -399,12 +400,13 @@ body{
 }
 /* productcards productcards productcards productcards productcards productcards */
 .productcards{
-    width: 1045px;
-    gap: 30px; 
-    display: flex;
+    /* gap: 30px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
 }
 .productcards .card{
-    width: 348px;
     padding: 0;
     margin: 0;
     align-items: center;
@@ -427,7 +429,6 @@ body{
     gap: 15px;
     background-color: #fff;
     padding: 21px 32px 6px 23px;
-    width: 341px;
     /* height: 322px; */
     padding-bottom: 35px;
    
@@ -642,7 +643,7 @@ body{
 
 .pricing-tables{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
     /* width: 1045px; */
     gap: 40px;
@@ -654,11 +655,10 @@ body{
 .pricing-tables .table{
     display: flex;
     flex-direction: column;
-    width: 340px;
+    /* width: 340px; */
     box-shadow: 0px 13px 19px 0px #00000012;
     /* margin: 50px, 40px, 50px, 40px; */
-    padding-top: 49px;
-    padding-left: 40.5px;
+    padding: 50px;
     gap: 35px;
     padding-bottom: 49px;
     
@@ -695,19 +695,19 @@ body{
     color: #737373; 
 }
 .pricing-tables .table h3{
-    width: 64px;
+    max-width: 64px;
     font-size: 24px;
     color: #252B42;
 }
 .pricing-tables .table h6{
-    width: 203px;
+    max-width: 203px;
     font-size: 14px;
     color: #737373;
 
 }
 .pricing-tables .table .price{
     /* width:  76px; */
-    height:  74px;
+    /* height:  74px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -715,7 +715,7 @@ body{
 
 }
 .pricing-tables .table .price h2{
-    height: 50px;
+    /* height: 50px; */
     font-size: 40px;
     font-weight: 700;
     line-height: 50px;
@@ -724,7 +724,7 @@ body{
 
  }
 .pricing-tables .table .price h6{
-    height: 24px;
+    /* height: 24px; */
    
     font-size: 14px;
     font-weight: 700;
@@ -777,7 +777,7 @@ body{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.2px;
-    width: 201px;
+    max-width: 201px;
     color:#252B42;
     
 
@@ -801,7 +801,7 @@ body{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.2px;
-    width: 201px;
+    max-width: 201px;
     color:#252B42;
     ;
 }
@@ -819,8 +819,8 @@ body{
 
 }
 .pricing-tables .new-logo h3{
-    width: 57px;
-    height: 32px;
+    max-width: 57px;
+    /* height: 32px; */
     font-size: 24px;
     font-weight: 700;
     line-height: 32px;
@@ -840,15 +840,14 @@ body{
 /* Testimonials-cardTestimonials-cardTestimonials-cardTestimonials-cardTestimonials-cardTestimonials-card */
 
 .testimonials-cards{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
-    width: 1045px;
-    height: 317px;
 }
 .testimonials-cards .card{
     display: flex;
     flex-direction: column;
-    width: 348px;
+    /* width: 348px; */
     align-items: center;
     gap: 15px;
     justify-content: center;
@@ -862,9 +861,7 @@ body{
     font-size: 20px;
 }
 .testimonials-cards .card p{
-    width: 159px;
-    height: 120px;
-    font-family: Montserrat;
+    max-width: 159px;
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
@@ -878,17 +875,17 @@ body{
     align-items: center;
     gap: 15px;
     /* width: 158px; */
-    height: 50px;
+    /* height: 50px; */
 }
 .testimonials-cards .card .testimonial-user .user-details{
     /* width: 93px; */
-    height: 40px;
+    /* height: 40px; */
 }
 .testimonials-cards .card .testimonial-user .user-details
 h6{
-    /* width: 93px; */
+    max-width: 100px;
     /* height: 24px; */
-    font-family: Montserrat;
+    
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
@@ -896,9 +893,9 @@ h6{
     text-align: left;
     color: #23A6F0;
 }
-.testimonials-cards .card .testimonial-user .user-details small{
-    width: 56px;
-    height: 16px;
+.testimonials-cards .card .testimonial-user .user-details .small{
+    max-width: 56px;
+    /* height: 16px; */
     font-family: Montserrat;
     font-size: 12px;
     font-weight: 400;
