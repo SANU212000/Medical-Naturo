@@ -930,6 +930,12 @@ h6{
     align-items: center;
 
 }
+.align-item-center{
+    align-items: center;
+}
+.text-align-center{
+    text-align: center;
+}
 .join-section .topside h6{
     color:#23A6F0;
     font-size: 14px;
@@ -1008,11 +1014,12 @@ h6{
 
 }
 .footer .topside{
-    display: flex;
-    gap: 83px;
-    max-width: 1144px;
+    display: grid;
+    /* gap: 83px; */
+    /* max-width: 1144px; */
     padding-bottom: 50px;
     justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
 }
 .footer .topside .box{
     display: flex;
@@ -1120,7 +1127,8 @@ h6{
 .footerbottomside {
     display: flex;
     align-items: center;
-    gap: 239px;
+    
+    justify-content: space-between;
     background-color: #FAFAFA;
     padding: 25px, 0px, 25px, 0px;
     padding-top: 20px;
