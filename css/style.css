@@ -152,6 +152,7 @@ body{
 .hero-section .button_action{
     display: flex;
     gap: 10px;
+    padding-bottom: 200px;
 
 }
 .hero-section .colm-1{
@@ -406,8 +407,8 @@ color: #737373;
     align-items: center;
     justify-content: space-evenly;
     grid-template-columns:repeat(6, 1fr);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
 }
 .companies-section .logo{
     display: flex;
@@ -419,11 +420,11 @@ color: #737373;
     background-color: #252B42;
 }
 .Layout-section-3{
-    padding-top: 180px;
+    /* padding-top: 180px; */
     display: flex;
     flex-direction: column;
     gap: 80px;
-    padding-bottom: 180px;
+    /* padding-bottom: 180px; */
 }
 .Layout-section-3 .topside{
     display: flex;
@@ -669,11 +670,11 @@ color: #737373;
 /* topside *//* topside *//* topside */
 
 .Layout-section-4{
-    padding-top: 180px;
+    /* padding-top: 180px; */
     display: flex;
     flex-direction: column;
     gap: 80px;
-    padding-bottom: 180px;
+    /* padding-bottom: 180px; */
 }
 .page-title{
     display: flex;
@@ -909,7 +910,7 @@ color: #737373;
     display: flex;
     flex-direction: column;
     gap: 80px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
 
 }
 
@@ -987,8 +988,8 @@ h6{
 
 .bg-join-us-section{
     background-color: #ECF4FF;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
 }
 .join-section{
     display: flex;
@@ -1252,4 +1253,9 @@ h6{
 }
 .color-white{
     color: white !important;
+}
+
+.row-gap{
+    padding-top:50px;
+    padding-bottom:50px;
 }
