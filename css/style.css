@@ -1146,7 +1146,7 @@ h6{
     padding: 21px;
     border: 0px solid #ddd;
     border-radius: 5px 0 0 5px;
-    max-width: 650px;
+    width: 100%;
     outline: none;
     font-weight: 400;
 }
