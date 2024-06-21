@@ -13,7 +13,7 @@
 
 </head>
 <body>
- <section class="bg-hero-section row-gap">
+ <section class="bg-hero-section">
     <!-- navbar ---------------------------------------------------------------------------------------------->
     <header class="bg-header-section">    
             <div class="container">
@@ -21,10 +21,24 @@
                     <h3>Medical-Naturo</h3>
                     <div class="navbar">
                          <ul class="navlist">
-                             <li ><a class="link" href="#">Home</a></li>
-                             <li ><a class="link" href="#">Product</a></li>
-                             <li ><a class="link" href="#">Pricing</a></li>
-                             <li ><a class="link" href="#">Contact</a></li>
+                             <li ><a class="nav-link" href="#">Home</a></li>
+                             <li >
+                                <a class="nav-link layer-1">Product▾</a>
+                                <ul class="dropdown">
+                                   <li><a class="layer-2" href="#">product1▾</a>
+                                    <ul class="dropdown2">
+                                        <li><a href="#">product1</a></li>
+                                        <li><a href="#">product2</a></li>
+                                        <li><a href="#">product3</a></li>
+                                        <li><a href="#">product4</a></li>
+                                     </ul></li>
+                                   <li><a href="#">product2</a></li>
+                                   <li><a href="#">product3</a></li>
+                                   <li><a href="#">product4</a></li>
+                                </ul>
+                            </li>
+                             <li ><a class="nav-link" href="#">Pricing</a></li>
+                             <li ><a class="nav-link" href="#">Contact</a></li>
                          </ul>
                          <div class="nav_button">
                               <button class="button transparent-button">Login</button>
@@ -102,7 +116,7 @@
     <!--section our activity------------------------------------------------------------------------------------>
         <section class="row-gap">
             <div class="container">
-                <div class="Layout-section-2">
+                <div class="sub-hero-section">
                     <div class="colm-1">
                         <img src="img/thumb-concept.png" alt="photo">
                     </div>
@@ -155,7 +169,7 @@
     <!--section practice--------------------------------------------------------------------------------------->
     <section class="bg-practice-section row-gap">
         <div class="container">
-            <div class="Layout-section-3">
+            <div class="product-card-section">
                 <div class="page-title row-gap">
                     <h6>Practice Advice</h6>
                     <h1 class="color-white">Our Doctors Specialize in you</h1>
@@ -332,7 +346,7 @@
     <!--practice advice pricing section------------------------------------------------------------------------------>
     <section class="row-gap">
     <div class="container">
-        <div class="Layout-section-4">
+        <div class="pricing-card-section">
             <div class="page-title row-gap">
                 <h6>Practice Advice</h6>
                 <h1>Pricing</h1>
@@ -492,7 +506,7 @@
     <!----client section------------------------------------------------------------------------------>
     <section class="row-gap">
     <div class="container">
-        <div class="Layout-section-5 ">
+        <div class="client-section ">
             <div class="page-title row-gap">
                 <h6>Practice Advice</h6>
                 <h1>Each client is important</h1>
