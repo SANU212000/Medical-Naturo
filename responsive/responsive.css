@@ -1,0 +1,193 @@
+@media only screen and (max-width: 1070px) {
+    .hero-second-half{
+        display: none;
+    }
+    .hero-section {
+        display: flex;
+        justify-content: center;
+    }
+    .hero-first-half{
+        align-items: center;
+        text-align: center;`
+    }
+    .cards .card_style{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 30px;
+    }
+
+    .sub-hero-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    /* .sub-hero-section .first-half{
+        display: none;
+    } */
+    .sub-hero-section .second-half .second-half-content{
+        gap: 30px;
+    
+    }
+    .main-footer .footer-details .box{
+        max-width: 150px;
+        gap: 15px;
+    }
+    .pricing-tables .table .features h6{
+        font-size: 13px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        max-width: 210px;
+    
+    }
+  }
+
+  @media only screen and (max-width: 960px) {
+    .cards {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+        align-items: flex-start;
+        row-gap: 20px;
+      }
+
+    .pricing-tables {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+      }
+    .productcards {
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .main-footer .footer-details {
+        display: grid;
+        padding-bottom: 50px;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 30px;
+        justify-items: center;
+      }
+      .main-footer .footer-details .touch-box{
+        width: 50%;
+      }
+      .sub-hero-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        row-gap:  50px;
+    }
+    .sub-hero-section .second-half .second-half-content p{
+        text-align: center;
+        align-self: center;
+
+    }
+    .sub-hero-section .second-half .second-half-content h2{
+        text-align: center;
+        align-self: center;
+
+    }
+    .sub-hero-section .second-half .second-half-content hr{
+        text-align: center;
+        align-self: center;
+
+    }
+    .second-half-content a{
+        display: flex;
+        justify-content: center;
+    }
+    .second-half-content {
+        justify-content: center;
+    } 
+    .companies-section{
+        grid-template-columns:repeat(3, 1fr);
+        row-gap:  30px;
+    }
+    .page-title{
+        align-items: center;
+        text-align: center;
+    }
+  }
+
+
+
+@media only screen and (max-width: 765px){
+    .pricing-tables {
+        align-items: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+      }
+    .pricing-tables .table{
+        width: 70%;
+
+    }
+    .productcards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+      }
+      .productcards .card{
+        width: 70%;
+      }
+    }
+    
+@media only screen and (max-width: 636px){
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+      }
+
+      .main-footer .footer-details{
+        display: flex;
+        flex-direction: column;
+        align-items:center ;
+      }
+      /* .main-footer .footer-details .box .details{
+        align-items: center;
+      }
+      .main-footer .footer-details .box h5{
+        align-items: center;
+      } */
+    .card_style{
+        width: 80%;
+    }
+    .testimonials-cards {
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+
+      }
+      .testimonials-cards .card{
+        gap: 25px;
+      }
+      .sub-footer .sub-footer-first-half {
+        justify-content: center;
+      }
+      .sub-footer{
+        flex-direction: column;
+        row-gap: 20px;
+
+      }
+    }
+
+
+    @media only screen and (max-width: 504px) {
+        .companies-section{
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 30px;
+        }
+
+    }
+
+
+  
