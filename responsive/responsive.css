@@ -8,7 +8,7 @@
     }
     .hero-first-half{
         align-items: center;
-        text-align: center;`
+        text-align: center;
     }
     .cards .card_style{
         display: flex;
@@ -62,15 +62,25 @@
         grid-template-columns: repeat(2, 1fr);
       }
       .main-footer .footer-details {
-        display: grid;
-        padding-bottom: 50px;
-        justify-content: center;
         grid-template-columns: repeat(2, 1fr);
         row-gap: 30px;
         justify-items: center;
       }
+      .touch-box{
+        align-items: center;
+        
+      }
+      .touch-box .details{
+        align-items: center;
+      }
+      .main-footer .footer-details .box .details{
+        align-items: center;
+      }
+      .main-footer .footer-details .box {
+        align-items: center;
+      }
       .main-footer .footer-details .touch-box{
-        width: 50%;
+
       }
       .sub-hero-section{
         display: flex;
@@ -152,12 +162,8 @@
         flex-direction: column;
         align-items:center ;
       }
-      /* .main-footer .footer-details .box .details{
-        align-items: center;
-      }
-      .main-footer .footer-details .box h5{
-        align-items: center;
-      } */
+
+    
     .card_style{
         width: 80%;
     }
@@ -178,6 +184,7 @@
         row-gap: 20px;
 
       }
+      
     }
 
 
@@ -186,8 +193,156 @@
             grid-template-columns: repeat(2, 1fr);
             row-gap: 30px;
         }
+        .pricing-tables .table{
+          width: 80%;
+        }
+        .productcards .card {
+          width: 80%;
+        }
+        .cards .card_style{
+          width: 80%;
+        }
+  
+      }
+      @media only screen and (max-width: 450px){
+        .pricing-tables .new-logo{
+          display: none;
+        }
 
-    }
+      }
+@media only screen and (max-width: 400px) {
+  .pricing-tables .table{
+    width: 90%;
+  }
+  .cards .card_style{
+    width: 90%;
+  }
+  .productcards .card {
+    width: 90%;
+  }
+  .button {
+    font-size: 12px;
+    padding: 10px 22px
+  }
+  .hero-section .hero-first-half h1{
+    font-size: 38px;
+  }
+  .hero-section .hero-first-half h5{
+    font-size: 14px;
+  }
+  .hero-section .hero-first-half h3{
+    font-size: 18px;
+  }
+  .page-title h1{
+    font-size: 38px;
+  }
+  .join-section .topside h1{
+    font-size: 38px;
+  }
 
+  .card_style p{
+    font-size: 12px;
+  }
+  .sub-hero-section .second-half.second-half-content p{
+    font-size: 12px;
+  }
+  .productcards .card .card-info p{
+    font-size: 12px;
+  }
+  .page-title p{
+    font-size: 12px;
+  }
+  .pricing-tables .table p{
+    font-size: 12px;
+  }
+  .testimonials-cards .card p{
+    font-size: 12px;
+  }
+  .join-section .topside p{
+    font-size: 12px;
+  }
+  
+
+  .sub-hero-section .second-half .second-half-content h2{
+    font-size: 38px;
+  }
+  .pricing-tables .table .price h2{
+    font-size: 38px;
+  }
+  
+
+
+  .main-navbar h3{
+    font-size: 22px;
+  }
+  .hero-section .hero-first-half h3{
+      font-size: 22px;
+  }
+  .cards h3{
+    font-size: 14px;
+  }
+  .pricing-tables .table h3{
+    font-size: 22px;
+  }
+  .pricing-tables .new-logo h3{
+    font-size: 22px;
+  }
+
+
+
+  .hero-section .hero-first-half h5{
+    font-size: 14px;
+  }
+  .productcards .card .card-info h5{
+    font-size: 14px;
+  }
+  .productcards .card .card-info .price h5{
+    font-size: 14px;
+  }
+  .main-footer .footer-details .box h5{
+    font-size: 14px;
+  }
+  .main-footer .footer-details .touch-box h5{
+    font-size: 14px;
+  }
+
+
+  .productcards .card-sale h6{
+    font-size: 14px;
+  }
+  .p-update h6{
+    font-size: 12px;
+  }
+  .page-title h6{
+    font-size: 12px;
+  }
+  .pricing-tables .table h6{
+    font-size: 14px;
+  }
+  .pricing-tables .table .price h6{
+    font-size: 12px;
+  }
+  .pricing-tables .table .features h6{
+    font-size: 12px;
+  }
+  .testimonials-cards .card .testimonial-user .user-details h6{
+    font-size: 12px;
+  }
+  .join-section .topside h6{
+    font-size: 12px;
+  }
+  .sub-footer .sub-footer-first-half h6{
+    font-size: 12px;
+  }
+
+
+
+
+
+
+
+
+
+}
 
   
