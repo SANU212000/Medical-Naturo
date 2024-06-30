@@ -49,8 +49,8 @@ p{
     --x-width: calc(var(--hamburger-height) * 1.41421356237);
     flex-direction: column;
     gap: var(--hamburger-gap);
-    border-radius: 9999px;
-    width: 45px;
+    border-radius: 9px;
+    /* width: 45px; */
     top: var(--hamburger-margin);
     left: var(--hamburger-margin);
     z-index: 999;
@@ -279,6 +279,10 @@ p{
     color: var(--primary-color);
 
 }
+.brand-name{
+    display: ruby;
+    
+  }
 /* .button{
       
     border: none;
@@ -359,9 +363,13 @@ font-size: 20px;
 font-weight: 400;
 line-height: 30px;
 letter-spacing: 0.20000000298023224px;
-text-align: left;
+text-align: center;
 color: #737373;
 
+
+}
+.hamburger-navlist button{
+    display: none;
 }
 .hero-section .hero-first-half h5{
     font-size: 16px;
@@ -1377,7 +1385,6 @@ h6{
 }
 
 .sub-footer .sub-footer-first-half{
-    width: 600px;
     /* height: 24px; */
     display: flex;
     align-items: center ;

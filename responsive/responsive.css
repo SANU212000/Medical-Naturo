@@ -1,463 +1,561 @@
-@media only screen and (max-width: 1070px) {
-    .hero-second-half{
-        display: none;
-    }
-    .hero-section {
-        display: flex;
-        justify-content: center;
-    }
-    .hero-first-half{
-        align-items: center;
-        text-align: center;
-    }
-    .button {
-      font-size: 14px;
-      padding: 12px 22px;
-      min-width: 90px;
-    }
-    .cards .card_style{
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        gap: 30px;
-    }
+@media only screen and (max-width: 1072px) {
+  /* .brand-name{
+      display: flex;
+      align-items: center;
+      
+    } */
+  /* .sub-hero-section .first-half{
+      width: 90%;
+    } */
+  .sub-hero-section .first-half img {
+    width: 90%;
+  }
 
-    .sub-hero-section{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+  .hero-second-half {
+    display: none;
+  }
 
-    }
-    /* .sub-hero-section .first-half{
+  .hero-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-first-half {
+    align-items: center;
+    text-align: center;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 12px 22px;
+    min-width: 90px;
+  }
+
+  .cards .card_style {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+  }
+
+  .sub-hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* .sub-hero-section .first-half{
         display: none;
     } */
-    .sub-hero-section .second-half .second-half-content{
-        gap: 30px;
-    
-    }
-    .main-footer .footer-details .box{
-        max-width: 150px;
-        gap: 15px;
-    }
-    .pricing-tables .table .features h6{
-        font-size: 13px;
-        line-height: 24px;
-        letter-spacing: 0.2px;
-        max-width: 210px;
-    
-    }
+  .sub-hero-section .second-half .second-half-content {
+    gap: 30px;
   }
 
-  @media only screen and (max-width: 960px) {
-    .main-navbar h3{
-      width: 100%;
-    }
-    .hamburger-navlist{
-      gap: 20px;
-      align-items: center;
-    }
-    .ham-dropdown{
-      position: relative;
-      padding: 0px;
-      background-color:var(--secondary-color);
-    }
-    .ham-dropdown2{
-      position: relative;
-      padding: 0px;
-      background-color:var(--secondary-color)
-    }
-
-    .ham-layer-1:has(:checked) + .ham-dropdown {
-      display: flex;
-      flex-direction: column;
-      /* gap: 10px; */
+  .main-footer .footer-details .box {
+    max-width: 150px;
+    gap: 15px;
   }
-  
+
+  .pricing-tables .table .features h6 {
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    max-width: 210px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .brand-name h3 {
+    width: 100%;
+  }
+
+  .nav_button .transparent-button {
+    display: none;
+  }
+
+  .hamburger-navlist {
+    gap: 20px;
+    align-items: center;
+  }
+
+  .hamburger-navlist button {
+    display: block;
+  }
+
+  .ham-dropdown {
+    position: relative;
+    padding: 0px;
+    background-color: var(--secondary-color);
+  }
+
+  .ham-dropdown2 {
+    position: relative;
+    padding: 0px;
+    background-color: var(--secondary-color);
+  }
+
+  .ham-layer-1:has(:checked) + .ham-dropdown {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+  }
+
+  .second_drop {
+    display: none;
+  }
+
   /* .ham-dropdown:checked {
       display: flex;
       flex-direction: column; */
-      /* gap: 10px; */
+  /* gap: 10px; */
   /* } */
   /* .example:hover +.dropdown2{
       display: block;
   } */
-  .ham-layer-2:checked + .ham-dropdown2{
-      display: flex;
-      flex-direction: column;
-      /* gap: 10px; */
+  .ham-layer-2:checked + .ham-dropdown2 {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
   }
-  .ham-dropdown2:checked{
-      display: flex;
-      flex-direction: column;
-      /* gap: 10px; */
-  }
-    .cards {
-        display: grid;
-        gap: 10px;
-        grid-template-columns: repeat(2,1fr);
-        align-items: flex-start;
-        gap: 20px;
-      }
-      .navbar{
-        width: fit-content;
-      }
-      .brand-name{
-        display: flex;
-        align-items: center;
-        
-      }
-      .main-navbar h3{
-        width: 100%;
 
-      }
-      .nav_button{
-        font-size: 12px;
-      }
-      .main-navbar{
-        display: flex;
-        justify-content: space-between;
-      }
-      .navlist{
-        display: none;
-      }
-      .hamburger-menu .hamburger-navlist{
-        display:flex;
-      
-      }
-      .hamburger-menu{
-        display: flex;
-        flex-direction: column;
-      }
-      .hamburger-navlist{
-        /* display: flex; 
+  .ham-dropdown2:checked {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+  }
+
+  .cards {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .navbar {
+    width: fit-content;
+  }
+
+  .brand-name {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .main-navbar h3 {
+    width: 100%;
+  }
+
+  .nav_button {
+    font-size: 12px;
+  }
+
+  .main-navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navlist {
+    display: none;
+  }
+
+  .hamburger-menu .hamburger-navlist {
+    display: flex;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hamburger-navlist {
+    /* display: flex; 
         flex-direction: column;
         position: inherit;
         left: -20px;
         width: 30px; */
-        transition: all ease-in-out;
-      }
-      .hamburger-menu:has(input:checked) +  .hamburger-navlist{
-        display: flex; 
-        flex-direction: column;
-        position: absolute;
-        left: -5%;
-        top: -20%;
-        width: 50%;
-      }
-    .pricing-tables {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        align-items: center;
-      }
-    .productcards {
-        gap: 20px;
-        grid-template-columns: repeat(2, 1fr);
-      }
-      .main-footer .footer-details {
-        grid-template-columns: repeat(2, 1fr);
-        row-gap: 30px;
-        justify-items: center;
-      }
-      .touch-box{
-        align-items: center;
-        
-      }
-      .touch-box .details{
-        align-items: center;
-      }
-      .main-footer .footer-details .box .details{
-        align-items: center;
-      }
-      .main-footer .footer-details .box {
-        align-items: center;
-      }
-      .main-footer .footer-details .touch-box{
-
-      }
-      .sub-hero-section{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        row-gap:  50px;
-    }
-    .sub-hero-section .second-half .second-half-content p{
-        text-align: center;
-        align-self: center;
-
-    }
-    .sub-hero-section .second-half .second-half-content h2{
-        text-align: center;
-        align-self: center;
-
-    }
-    .sub-hero-section .second-half .second-half-content hr{
-        text-align: center;
-        align-self: center;
-
-    }
-    .second-half-content a{
-        display: flex;
-        justify-content: center;
-    }
-    .second-half-content {
-        justify-content: center;
-    } 
-    .companies-section{
-        grid-template-columns:repeat(3, 1fr);
-        row-gap:  30px;
-    }
-    .page-title{
-        align-items: center;
-        text-align: center;
-    }
+    transition: all ease-in-out;
   }
 
+  .hamburger-menu:has(input:checked) + .hamburger-navlist {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -5%;
+    top: -20%;
+    width: 50%;
+  }
 
+  .pricing-tables {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
 
-@media only screen and (max-width: 765px){
+  .productcards {
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-footer .footer-details {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    justify-items: center;
+  }
+
+  .touch-box {
+    align-items: center;
+  }
+
+  .touch-box .details {
+    align-items: center;
+  }
+
+  .main-footer .footer-details .box .details {
+    align-items: center;
+  }
+
+  .main-footer .footer-details .box {
+    align-items: center;
+  }
+
+  .main-footer .footer-details .touch-box {
+  }
+
+  .sub-hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 50px;
+  }
+
+  .sub-hero-section .second-half .second-half-content p {
+    text-align: center;
+    align-self: center;
+  }
+
+  .sub-hero-section .second-half .second-half-content h2 {
+    text-align: center;
+    align-self: center;
+  }
+
+  .sub-hero-section .second-half .second-half-content hr {
+    text-align: center;
+    align-self: center;
+  }
+
+  .second-half-content a {
+    display: flex;
+    justify-content: center;
+  }
+
+  .second-half-content {
+    justify-content: center;
+  }
+
+  .companies-section {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+  }
+
+  .page-title {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 765px) {
   /* *{
     --bar-width:30px;
     --bar-height;
   } */
-    .pricing-tables {
-        align-items: center;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        width: 100%;
-        justify-content: center;
-        flex-direction: column;
-      }
-    .pricing-tables .table{
-        width: 70%;
+  .pricing-tables {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-    }
-    .productcards {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+  .pricing-tables .table {
+    width: 70%;
+  }
 
+  .productcards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-      }
-      .productcards .card{
-        width: 70%;
-      }
-    }
-    
-@media only screen and (max-width: 636px){
-    .cards {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-      }
-      .button {
-        font-size: 12px;
-        padding: 9px 6px;
-      }
-      .button span{
-        font-size: 20px;
-      }
+  .productcards .card {
+    width: 70%;
+  }
+}
 
-      .main-footer .footer-details{
-        display: flex;
-        flex-direction: column;
-        align-items:center ;
-      }
+@media only screen and (max-width: 636px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-      .nav_button{
-        gap: 8px;
-      }
-    .card_style{
-        width: 80%;
-    }
-    .testimonials-cards {
-        display: flex;
-        flex-direction: column;
-        row-gap: 40px;
+  .button {
+    font-size: 12px;
+    padding: 9px 6px;
+  }
 
-      }
-      .testimonials-cards .card{
-        gap: 25px;
-      }
-      .sub-footer .sub-footer-first-half {
-        justify-content: center;
-      }
-      .sub-footer{
-        flex-direction: column;
-        row-gap: 20px;
+  .button span {
+    font-size: 20px;
+  }
 
-      }
-      
-    }
+  .main-footer .footer-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .nav_button {
+    gap: 8px;
+  }
 
-    @media only screen and (max-width: 508px) {
-      
-      .button span{
-        font-size: 20px;
-      }
-      .main-navbar h3{
-        font-size: 15px;
-      }
-        .companies-section{
-            grid-template-columns: repeat(2, 1fr);
-            row-gap: 30px;
-        }
-        .pricing-tables .table{
-          width: 80%;
-        }
-        .productcards .card {
-          width: 80%;
-        }
-        .cards .card_style{
-          width: 80%;
-        }
-        .nav_button .button {
-          font-size: 10px;
-          padding: 8px 6px
-        }
-        .pricing-tables .new-logo{
-          display: none;
-        }
+  .card_style {
+    width: 80%;
+  }
 
-      }
-      /* @media only screen and (max-width: 450px){
-        
+  .testimonials-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+
+  .testimonials-cards .card {
+    gap: 25px;
+  }
+
+  .sub-footer .sub-footer-first-half {
+    justify-content: center;
+  }
+
+  .sub-footer {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  .hamburger-menu::before,
+  .hamburger-menu::after,
+  .hamburger-menu input {
+    content: "";
+    width: calc(var(--bar-width) - 1px);
+    height: calc(var(--bar-height) - 0.1px);
+  }
+
+  .hamburger-menu {
+    gap: calc(var(--hamburger-gap) - 1px);
+  }
+
+  /* .hamburger-navlist{ 
+        padding-top: calc( (calc (var (--bar-height) - .1px)) * 3 + (calc(var (--hamburger-gap - 1px) ) * 2)+ (var(--hamburger-margin) - 1px) + 1rem)
       } */
+
+  .button span {
+    font-size: 20px;
+  }
+
+  .main-navbar h3 {
+    font-size: 17px;
+    width: max-content;
+  }
+
+  .companies-section {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+
+  .pricing-tables .table {
+    width: 80%;
+  }
+
+  .productcards .card {
+    width: 80%;
+  }
+
+  .cards .card_style {
+    width: 80%;
+  }
+
+  .nav_button .button {
+    font-size: 10px;
+    padding: 8px 6px;
+  }
+
+  .pricing-tables .new-logo {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 400px) {
-  .pricing-tables .table{
+  .hamburger-menu::before,
+  .hamburger-menu::after,
+  .hamburger-menu input {
+    content: "";
+    width: calc(var(--bar-width) - 2px);
+    height: calc(var(--bar-height) - 0.1px);
+  }
+
+  .hamburger-menu {
+    gap: calc(var(--hamburger-gap) - 2px);
+  }
+
+  .pricing-tables .table {
     width: 90%;
   }
-  .cards .card_style{
+
+  .cards .card_style {
     width: 90%;
   }
+
   .productcards .card {
     width: 90%;
   }
-  .nav_button{
+
+  .nav_button {
     gap: 0px;
   }
-  .hero-section .hero-first-half h1{
+
+  .hero-section .hero-first-half h1 {
     font-size: 38px;
   }
-  .hero-section .hero-first-half h5{
+
+  .hero-section .hero-first-half h5 {
     font-size: 14px;
   }
-  .hero-section .hero-first-half h3{
+
+  .hero-section .hero-first-half h3 {
     font-size: 18px;
   }
-  .page-title h1{
-    font-size: 38px;
-  }
-  .join-section .topside h1{
+
+  .page-title h1 {
     font-size: 38px;
   }
 
-  .card_style p{
-    font-size: 12px;
-  }
-  .sub-hero-section .second-half.second-half-content p{
-    font-size: 12px;
-  }
-  .productcards .card .card-info p{
-    font-size: 12px;
-  }
-  .page-title p{
-    font-size: 12px;
-  }
-  .pricing-tables .table p{
-    font-size: 12px;
-  }
-  .testimonials-cards .card p{
-    font-size: 12px;
-  }
-  .join-section .topside p{
-    font-size: 12px;
-  }
-  
-
-  .sub-hero-section .second-half .second-half-content h2{
+  .join-section .topside h1 {
     font-size: 38px;
   }
-  .pricing-tables .table .price h2{
+
+  .card_style p {
+    font-size: 12px;
+  }
+
+  .sub-hero-section .second-half.second-half-content p {
+    font-size: 12px;
+  }
+
+  .productcards .card .card-info p {
+    font-size: 12px;
+  }
+
+  .page-title p {
+    font-size: 12px;
+  }
+
+  .pricing-tables .table p {
+    font-size: 12px;
+  }
+
+  .testimonials-cards .card p {
+    font-size: 12px;
+  }
+
+  .join-section .topside p {
+    font-size: 12px;
+  }
+
+  .sub-hero-section .second-half .second-half-content h2 {
     font-size: 38px;
   }
-  
 
+  .pricing-tables .table .price h2 {
+    font-size: 38px;
+  }
 
-  .main-navbar h3{
-    font-size: 13px;
+  .brand-name h3 {
+    font-size: 16px;
   }
-  .hero-section .hero-first-half h3{
-      font-size: 22px;
-  }
-  .cards h3{
-    font-size: 14px;
-  }
-  .pricing-tables .table h3{
+
+  .hero-section .hero-first-half h3 {
     font-size: 22px;
   }
-  .pricing-tables .new-logo h3{
+
+  .cards h3 {
+    font-size: 14px;
+  }
+
+  .pricing-tables .table h3 {
     font-size: 22px;
   }
 
+  .pricing-tables .new-logo h3 {
+    font-size: 22px;
+  }
 
-
-  .hero-section .hero-first-half h5{
-    font-size: 14px;
-  }
-  .productcards .card .card-info h5{
-    font-size: 14px;
-  }
-  .productcards .card .card-info .price h5{
-    font-size: 14px;
-  }
-  .main-footer .footer-details .box h5{
-    font-size: 14px;
-  }
-  .main-footer .footer-details .touch-box h5{
+  .hero-section .hero-first-half h5 {
     font-size: 14px;
   }
 
-
-  .productcards .card-sale h6{
+  .productcards .card .card-info h5 {
     font-size: 14px;
   }
-  .p-update h6{
-    font-size: 12px;
-  }
-  .page-title h6{
-    font-size: 12px;
-  }
-  .pricing-tables .table h6{
+
+  .productcards .card .card-info .price h5 {
     font-size: 14px;
   }
-  .pricing-tables .table .price h6{
-    font-size: 12px;
-  }
-  .pricing-tables .table .features h6{
-    font-size: 12px;
-  }
-  .testimonials-cards .card .testimonial-user .user-details h6{
-    font-size: 12px;
-  }
-  .join-section .topside h6{
-    font-size: 12px;
-  }
-  .sub-footer .sub-footer-first-half h6{
-    font-size: 12px;
+
+  .main-footer .footer-details .box h5 {
+    font-size: 14px;
   }
 
+  .main-footer .footer-details .touch-box h5 {
+    font-size: 14px;
+  }
 
+  .productcards .card-sale h6 {
+    font-size: 14px;
+  }
 
+  .p-update h6 {
+    font-size: 12px;
+  }
 
+  .page-title h6 {
+    font-size: 12px;
+  }
 
+  .pricing-tables .table h6 {
+    font-size: 14px;
+  }
 
+  .pricing-tables .table .price h6 {
+    font-size: 12px;
+  }
 
+  .pricing-tables .table .features h6 {
+    font-size: 12px;
+  }
 
+  .testimonials-cards .card .testimonial-user .user-details h6 {
+    font-size: 12px;
+  }
 
+  .join-section .topside h6 {
+    font-size: 12px;
+  }
+
+  .sub-footer .sub-footer-first-half h6 {
+    font-size: 12px;
+  }
 }
-
-  
