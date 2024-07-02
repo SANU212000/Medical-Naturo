@@ -68,6 +68,13 @@
   .brand-name h3 {
     width: 100%;
   }
+.hamburger-navlist input{
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  pointer-events: none;
+}
 
   .nav_button .transparent-button {
     display: none;
@@ -82,26 +89,33 @@
     display: block;
   }
 
-  .ham-dropdown {
+  .ham-dropdown{
     position: relative;
-    padding: 0px;
     background-color: var(--secondary-color);
+    padding: 0px 0px 0px 39px;
   }
 
   .ham-dropdown2 {
     position: relative;
     padding: 0px;
     background-color: var(--secondary-color);
+    padding: 0px 0px 0px 24px;
   }
 
-  .ham-layer-1:has(:checked) + .ham-dropdown {
+  input[type="checkbox"]:checked ~ .ham-dropdown {
     display: flex;
     flex-direction: column;
-    /* gap: 10px; */
+    gap: 10px;
+    padding: 0px 0px 0px 23px;
   }
 
   .second_drop {
     display: none;
+  }
+  input[name="yes"]:checked ~ .ham-dropdown2{
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
   }
 
   /* .ham-dropdown:checked {

@@ -30,27 +30,23 @@
                         <ul class="hamburger-navlist">
                             <li><a class="nav-link" href="#">Home</a></li>
                             <li>
-
-                                <a class="nav-link ham-layer-1"><input type="checkbox">Product▾</a>
-                                <ul class="ham-dropdown">
-
-                                    <li><a class="ham-layer-2">product1▾</a><input type="checkbox"></li>
-                                    <div class="ham-dropdown2">
-                                        <li><a href="#" class="ham-sec-dropdown">product12</a><input type="checkbox">
-                                        </li>
-                                    </div>
-                                    <div class="second_drop">
-                                        <li><a href="#">product2</a></li>
-                                        <li><a href="#">product3</a></li>
-                                        <li><a href="#">product4</a></li>
-                                    </div>
-
-
-                                    <li><a href="#">product2</a></li>
-                                    <li><a href="#">product3</a></li>
-                                    <li><a href="#">product4</a></li>
-
-                                </ul>
+                                <input type="checkbox" id="ham-check-1" >
+                                <label class="ham-check" for="ham-check-1"><a class="nav-link ham-layer-1">Product▾</a></label>
+                                    <ul class="ham-dropdown">
+                                        <input type="checkbox" name="yes" id="ham-layer2">
+                                        <li><label for="ham-layer2"><a class="ham-layer-2">Product1▾</a></label></li>
+                                            <div class="ham-dropdown2">
+                                                <li><a href="#" class="ham-sec-dropdown">product12</a></li>
+                                                <div class="second_drop">
+                                                    <li><a href="#">Product2</a></li>
+                                                    <li><a href="#">Product3</a></li>
+                                                    <li><a href="#">Product4</a></li>
+                                                </div>
+                                            </div>
+                                        <li><a href="#">Product2</a></li>
+                                        <li><a href="#">Product3</a></li>
+                                        <li><a href="#">Product4</a></li>
+                                    </ul>
                             </li>
                             <li><a class="nav-link" href="#">Pricing</a></li>
                             <li><a class="nav-link" href="#">Contact</a></li>
@@ -64,19 +60,19 @@
                             <li><a class="nav-link" href="#">Home</a></li>
                             <li>
                                 <a class="nav-link layer-1">Product▾</a>
-                                <ul class="dropdown">
-                                    <li><a class="layer-2" href="#">product1▾</a>
+                                    <ul class="dropdown"><input type="checkbox" id="layer-2-checkbox">
+                                    <li><button class="ex"><label for="layer-2-checkbox"
+                                        >Product▾</label></button>
                                         <ul class="dropdown2">
-                                            <li><a href="#">product1</a></li>
-                                            <li><a href="#">product2</a></li>
-                                            <li><a href="#">product3</a></li>
-                                            <li><a href="#">product4</a></li>
+                                            <li><button><a href="#">Product 1</a></li></button>
+                                            <li><button><a href="#">Product 2</a></li></button>
+                                            <li><button><a href="#">Product 3</a></li></button>
+                                            <li><button><a href="#">Product 4</a></li></button>
                                         </ul>
                                     </li>
-                                    <li><a href="#">product2</a></li>
-                                    <li><a href="#">product3</a></li>
-                                    <li><a href="#">product4</a></li>
-                                </ul>
+                                    <li><button><a href="#">Product 2</a></li></button>
+                                    <li><button><a href="#">Product 3</a></li></button>
+                                    </ul>
                             </li>
                             <li><a class="nav-link" href="#">Pricing</a></li>
                             <li><a class="nav-link" href="#">Contact</a></li>
@@ -94,8 +90,8 @@
         <!-- section future------------------------------------------------------------------------------------>
         <section class="bg-hero-section ">
             <div class="container screen-spacing">
-                <div class="hero-section">
-                    <div class="hero-first-half row-gap">
+                <div class="hero-section row-gap2">
+                    <div class="hero-first-half row-gap2">
                         <h5>For Better Future</h5>
                         <h1 class="qwerty">Meet the Best Doctors</h1>
                         <h3>Get your best looking smile now!</h3>
@@ -104,7 +100,7 @@
                             <button class="button border-button">Learn more</button>
                         </div>
                     </div>
-                    <div class="hero-second-half">
+                    <div class="hero-second-half row-gap2">
                         <img src="img/none.png" alt="photo">
                     </div>
                 </div>
