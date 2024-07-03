@@ -155,14 +155,14 @@ p{
     padding: 7px 25px;;
 }
 .dropdown2{
-    /* width: 100%; */
-    background-color: red;
+    width: 100%;
+    background-color: #075988;
     position: absolute;
     left: 94px;
     top: 24px;
     z-index: 999;
     display: none;
-    padding: 10px 15px;;
+    padding: 0px ;
 }  
 .ham-layer-1{
     z-index: 0;
