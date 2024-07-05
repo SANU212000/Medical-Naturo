@@ -45,6 +45,56 @@ p {
     height: 100vh;
     display: none;
     z-index: 998;
+    overflow: auto;
+}
+
+.hamburger-navlist .hamCHECK {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.font400 {
+    font-weight: 400;
+}
+
+.font600 {
+    font-weight: 500;
+}
+
+.paddingleft {
+    padding-left: 50px;
+}
+
+.display.ruby {
+    display: block ruby;
+}
+
+.hamburger-navlist .hamCHECK a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hamburger-navlist .hamCHECK .ham-sec-dropdown {
+    display: flex;
+}
+
+.hamburger-navlist .hamCHECK .ham-layer-2 {
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.gap10 {
+    gap: 10px;
+}
+
+.hamburger-navlist .hamCHECK .ham-layer-2 a {
+    font-weight: 500;
+    align-items: center;
+    flex-direction: column;
 }
 
 .hamburger-menu .hamburger-navlist ul {
@@ -208,7 +258,6 @@ p {
 .ham-dropdown li a {
     text-decoration: none;
     color: white;
-    font-weight: 300;
     padding: 0px 0px 0px 24px;
 }
 
@@ -506,17 +555,18 @@ body {
     color: #737373;
 
 }
+
 /* .hamburger-menu{
     display: flex;
     row-gap: 10px;
     align-items: center;
 } */
-.hamburger-navlist .nav-link{
+.hamburger-navlist .nav-link {
     display: flex;
-    align-items: ;
+    /* align-items: ; */
     text-align: center;
-    color:white ;
-    row-gap:px;
+    color: white;
+    row-gap: px;
 }
 
 .hamburger-navlist button {

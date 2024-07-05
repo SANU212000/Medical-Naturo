@@ -129,7 +129,7 @@
       display: block;
   } */
   .ham-layer-2:checked + .ham-dropdown2 {
-    display: flex;
+    display: block ruby;
     flex-direction: column;
     /* gap: 10px; */
   }
