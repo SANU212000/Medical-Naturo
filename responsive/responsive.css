@@ -1,4 +1,5 @@
 @media only screen and (max-width: 1072px) {
+
   /* .brand-name{
       display: flex;
       align-items: center;
@@ -14,9 +15,11 @@
   .hero-second-half {
     display: none;
   }
-  .hero-section .hero-first-half h3{
+
+  .hero-section .hero-first-half h3 {
     text-align: center;
   }
+
   .hero-section {
     display: flex;
     justify-content: center;
@@ -33,12 +36,6 @@
     min-width: 90px;
   }
 
-  .cards .card_style {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 30px;
-  }
 
   .sub-hero-section {
     display: flex;
@@ -57,12 +54,15 @@
     max-width: 150px;
     gap: 15px;
   }
+  .pricing-tables .table .feature-list{
+    align-items: center;
+  }
 
   .pricing-tables .table .features h6 {
     font-size: 13px;
     line-height: 24px;
     letter-spacing: 0.2px;
-    max-width: 210px;
+    max-width: 100%;
   }
 }
 
@@ -70,13 +70,14 @@
   .brand-name h3 {
     width: 100%;
   }
-.hamburger-navlist input{
-  appearance: none;
-  padding: 0;
-  margin: 0;
-  outline: none;
-  pointer-events: none;
-}
+
+  .hamburger-navlist input {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+  }
 
   .nav_button .transparent-button {
     display: none;
@@ -91,44 +92,43 @@
     display: block;
   }
 
-  .ham-dropdown{
+  .ham-dropdown {
     position: relative;
     background-color: var(--secondary-color);
-    padding: 0px 0px 0px 39px;
+    padding: 10px 0px 10px 39px;
   }
 
   .ham-dropdown2 {
     position: relative;
     padding: 0px;
     background-color: var(--secondary-color);
-    padding: 0px 0px 0px 24px;
+    padding: 10px 0px 10px 90px;
   }
 
-  input[type="checkbox"]:checked ~ .ham-dropdown {
+  input[type="checkbox"]:checked~.ham-dropdown {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 0px 0px 0px 23px;
   }
 
+  .bg-header-section {
+    position: fixed;
+    top: 0;
+    z-index: 6;
+  }
+
   .second_drop {
     display: none;
   }
-  input[name="yes"]:checked ~ .ham-dropdown2{
+
+  input[name="yes"]:checked~.ham-dropdown2 {
     display: flex;
     flex-direction: column;
     /* gap: 10px; */
   }
 
-  /* .ham-dropdown:checked {
-      display: flex;
-      flex-direction: column; */
-  /* gap: 10px; */
-  /* } */
-  /* .example:hover +.dropdown2{
-      display: block;
-  } */
-  .ham-layer-2:checked + .ham-dropdown2 {
+  .ham-layer-2:checked+.ham-dropdown2 {
     display: block ruby;
     flex-direction: column;
     /* gap: 10px; */
@@ -142,11 +142,23 @@
 
   .cards {
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: flex-start;
-    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 20px;
+    justify-items: center;
+    width: 100%;
   }
+
+  .cards .card_style {
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .cards hr {
+    align-self: center;
+  }
+
 
   .navbar {
     width: fit-content;
@@ -193,7 +205,7 @@
     transition: all ease-in-out;
   }
 
-  .hamburger-menu:has(input:checked) + .hamburger-navlist {
+  .hamburger-menu:has(input:checked)+.hamburger-navlist {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -205,9 +217,15 @@
   .pricing-tables {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+   
+  }
+  .pricing-tables .table{
     align-items: center;
   }
-
+  .pricing-tables .table p{
+    text-align: center;
+  }
+ 
   .productcards {
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
@@ -219,7 +237,7 @@
     justify-items: center;
   }
 
-  .touch-box {
+  /* .touch-box {
     align-items: center;
   }
 
@@ -233,10 +251,9 @@
 
   .main-footer .footer-details .box {
     align-items: center;
-  }
+  } */
 
-  .main-footer .footer-details .touch-box {
-  }
+  .main-footer .footer-details .touch-box {}
 
   .sub-hero-section {
     display: flex;
@@ -244,6 +261,12 @@
     align-items: center;
     justify-content: space-between;
     row-gap: 50px;
+  }
+  .productcards .card .card-info{
+    align-items: center;
+  }
+  .productcards .card .card-info p{
+    text-align: center;
   }
 
   .sub-hero-section .second-half .second-half-content p {
@@ -282,6 +305,7 @@
 }
 
 @media only screen and (max-width: 765px) {
+
   /* *{
     --bar-width:30px;
     --bar-height;
@@ -301,22 +325,25 @@
   }
 
   .productcards {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
 
-  .productcards .card {
-    width: 70%;
+  /* .productcards .card {
+   display: flex;
+   width: 100%;
   }
+  .productcards .card .card-topside{
+    width: 45%;
+  }
+  .productcards .card .card-info{
+    width: 55%;
+    padding: 9px 28px 12px 35px;
+  } */
+
 }
 
 @media only screen and (max-width: 636px) {
-  .cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 
   .button {
     font-size: 12px;
@@ -330,15 +357,24 @@
   .main-footer .footer-details {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
   }
 
   .nav_button {
     gap: 8px;
   }
 
-  .card_style {
-    width: 80%;
+  .pricing-tables .table {
+    width: 95%;
+  }
+
+
+  .productcards .card {
+    width: 95%;
+  }
+
+  .cards .card_style {
+    width: 95%;
   }
 
   .testimonials-cards {
@@ -359,9 +395,14 @@
     flex-direction: column;
     row-gap: 20px;
   }
+  .productcards {
+    grid-template-columns: repeat(1,1fr);
+    /* align-items: center; */
+  }
 }
 
 @media only screen and (max-width: 508px) {
+  
   .hamburger-menu::before,
   .hamburger-menu::after,
   .hamburger-menu input {
@@ -381,6 +422,9 @@
   .button span {
     font-size: 20px;
   }
+  .button{
+    padding: 9px 46px;;
+  }
 
   .main-navbar h3 {
     font-size: 17px;
@@ -393,15 +437,15 @@
   }
 
   .pricing-tables .table {
-    width: 80%;
+    width: 100%;
   }
 
   .productcards .card {
-    width: 80%;
+    width: 100%;
   }
 
   .cards .card_style {
-    width: 80%;
+    width: 100%;
   }
 
   .nav_button .button {
@@ -415,6 +459,7 @@
 }
 
 @media only screen and (max-width: 400px) {
+
   .hamburger-menu::before,
   .hamburger-menu::after,
   .hamburger-menu input {
@@ -428,15 +473,15 @@
   }
 
   .pricing-tables .table {
-    width: 90%;
+    width: 100%;
   }
 
   .cards .card_style {
-    width: 90%;
+    width: 100%;
   }
 
   .productcards .card {
-    width: 90%;
+    width: 100%;
   }
 
   .nav_button {

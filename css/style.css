@@ -70,7 +70,9 @@ p {
 .display.ruby {
     display: block ruby;
 }
-
+.gap5{
+    gap: 5px;
+}
 .hamburger-navlist .hamCHECK a {
     display: flex;
     align-items: center;
@@ -258,9 +260,11 @@ p {
 .ham-dropdown li a {
     text-decoration: none;
     color: white;
-    padding: 0px 0px 0px 24px;
+    padding: 5px 0px 5px 50px;
 }
-
+.productcards .card .card-info .name-rate span .material-symbols-outlined{
+    font-size: 22px;
+}
 .ham-dropdown li {
     /* padding: 8px 20px; */
 }
@@ -397,9 +401,9 @@ p {
 
 .bg-header-section {
     background-color: var(--primary-light-bg-color);
-    position: fixed;
+    /* position: fixed;
     top: 0;
-    z-index: 6;
+    z-index: 6; */
     width: 100%;
 }
 
@@ -621,7 +625,7 @@ body {
     align-items: flex-start;
 }
 
-.card_style {
+.cards .card_style {
     width: 100%;
     background-color: white;
     box-shadow: var(--box-shadow);
@@ -643,25 +647,7 @@ body {
     color: #fff;
 }
 
-/* .cards .iconn { 
-    /* background-color: var(--primary-color); 
-    padding: 25px 21px;
-    display: flex;
-    align-items: center;
-    font-size:32px;
-    gap: 10px;
-    border-radius: 10px;
-    color: #fff;
-} 
-.cards .icon { 
-    padding: 25px 21px;
-    display: flex;
-    align-items: center;
-    font-size:32px;
-    gap: 10px;
-    border-radius: 10px;
-    color: #fff;
-} */
+
 .cards .card_style:nth-child(1) .icon {
 
     background-color: var(--primary-color);
@@ -671,12 +657,16 @@ body {
 
     background-color: #40BB15;
 }
-
-.cards .card_style:nth-child(3) .icon {
+ .cards .card_style:nth-child(3) .icon {
 
     background-color: var(--secondary-color);
 }
-
+.product-link span{
+    font-size: 14px;
+}
+.activity-link .link span{
+    font-style: 14px;
+}
 
 .cards h3 {
     font-size: 16px;
@@ -696,6 +686,14 @@ body {
     margin: 0%;
     border-color: transparent;
 }
+    .qwerty:before{
+        width: 500px;
+        height: 20px;
+        background-color: #E74040;
+        align-self: self-start;
+        margin: 0%;
+        border-color: transparent;
+    }
 
 .card_style p {
 
@@ -1312,7 +1310,6 @@ body {
 .pricing-tables .new-logo {
     width: 90px;
     height: 90px;
-    left: 279px;
     padding: 29px 15px 29px 15px;
     gap: 10px;
     border-radius: 52px;
@@ -1322,7 +1319,7 @@ body {
     right: 2px; */
     top: 0px;
     /* left: 700px; */
-    right: 2px;
+    right: -12px;
 }
 
 .pricing-tables .new-logo h3 {
