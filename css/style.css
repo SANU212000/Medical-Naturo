@@ -70,9 +70,11 @@ p {
 .display.ruby {
     display: block ruby;
 }
-.gap5{
+
+.gap5 {
     gap: 5px;
 }
+
 .hamburger-navlist .hamCHECK a {
     display: flex;
     align-items: center;
@@ -262,9 +264,11 @@ p {
     color: white;
     padding: 5px 0px 5px 50px;
 }
-.productcards .card .card-info .name-rate span .material-symbols-outlined{
+
+.productcards .card .card-info .name-rate span .material-symbols-outlined {
     font-size: 22px;
 }
+
 .ham-dropdown li {
     /* padding: 8px 20px; */
 }
@@ -657,14 +661,17 @@ body {
 
     background-color: #40BB15;
 }
- .cards .card_style:nth-child(3) .icon {
+
+.cards .card_style:nth-child(3) .icon {
 
     background-color: var(--secondary-color);
 }
-.product-link span{
+
+.product-link span {
     font-size: 14px;
 }
-.activity-link .link span{
+
+.activity-link .link span {
     font-style: 14px;
 }
 
@@ -678,22 +685,64 @@ body {
     text-align: left;
 }
 
-.cards hr {
+/* .cards hr {
     width: 50px;
     height: 2px;
     background-color: #E74040;
     align-self: self-start;
     margin: 0%;
     border-color: transparent;
+} */
+.pseudo-hr {
+    position: relative;
+    margin: 9px 0px;
+    width: 30%;
+    align-items: center;
+    display: flex;
 }
-    .qwerty:before{
-        width: 500px;
-        height: 20px;
-        background-color: #E74040;
-        align-self: self-start;
-        margin: 0%;
-        border-color: transparent;
-    }
+.pseudo-hr::before ,
+.pseudo-hr::after {
+    content: " ";
+    width: 100%;
+    height: 2px;
+    background-color: #E74040;
+    border-color: transparent;
+    position: absolute;
+}
+.pseudo-hr2 {
+    position: relative;
+    margin: 9px 0px;
+    width: 30%;
+    align-self: baseline;
+    display: flex;
+}
+.pseudo-hr2::before ,
+.pseudo-hr2::after {
+    content: " ";
+    width: 100%;
+    height: 4px;
+    background-color: #E74040;
+    border-color: transparent;
+    position: absolute;
+}
+/* .pseudo-hr::before {
+    content: " ";
+    height: 2px;
+    background-color: #E74040;
+    border-color: transparent;
+    position: absolute;
+} */
+
+/* .pseudo-hr::before{
+    top: 50%;
+    transform: translateY(-50%);
+    
+} 
+
+.pseudo-hr::after{
+    bottom: 50%;
+    transform: translateY(50%);
+} */
 
 .card_style p {
 

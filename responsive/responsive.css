@@ -236,6 +236,9 @@
     row-gap: 30px;
     justify-items: center;
   }
+  .pseudo-hr2{
+    align-self: center;
+  }
 
   /* .touch-box {
     align-items: center;
