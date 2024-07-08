@@ -270,6 +270,10 @@
   }
   .productcards .card .card-info p{
     text-align: center;
+    width: 75%;
+  }
+  .card_style p{
+    width: 75%;
   }
 
   .sub-hero-section .second-half .second-half-content p {
