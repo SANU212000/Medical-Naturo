@@ -6,8 +6,8 @@
 
 :root {
     --bar-width: 30px;
-    --bar-height: 5px;
-    --hamburger-gap: 5px;
+    --bar-height: 6px;
+    --hamburger-gap: 3px;
     --hamburger-margin: 64px;
     --animation-timing: 200ms ease-in-out;
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
