@@ -222,12 +222,18 @@ p {
     z-index: 2;
     padding: 0;
     color: white;
+    transition: 0px  0.5s ease-out;
+    max-height:200px;
 }
 
 .dropdown li a {
     text-decoration: none;
     color: white;
     font-weight: 600;
+    transition: var(--primary-color) 0.5s ease;
+}
+.dropdown-menu a:hover {
+    background-color: var(--primary-color);
 }
 
 .dropdown li {

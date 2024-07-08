@@ -54,9 +54,7 @@
     max-width: 150px;
     gap: 15px;
   }
-  .pricing-tables .table .feature-list{
-    align-items: center;
-  }
+ 
 
   .pricing-tables .table .features h6 {
     font-size: 13px;
@@ -163,7 +161,9 @@
   .navbar {
     width: fit-content;
   }
-
+  .pricing-tables .table .feature-list{
+    align-items: center;
+  }
   .brand-name {
     display: flex;
     align-items: center;
