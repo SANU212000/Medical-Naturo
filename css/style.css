@@ -218,12 +218,15 @@ p {
     /* width: 100%; */
     background-color: var(--primary-color);
     position: absolute;
-    display: none;
+    /* display: none; */
     z-index: 2;
     padding: 0;
     color: white;
-    transition: 0px  0.5s ease-out;
-    max-height:200px;
+    transition:  0.8s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    height: auto;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .dropdown li a {
@@ -248,8 +251,30 @@ p {
     left: 94px;
     top: 24px;
     z-index: 999;
-    display: none;
+    display: flex;
+    flex-direction: column;
     padding: 0px;
+    transition:all 0.5s  ease-in;
+    height: auto;
+    opacity: 0;
+    display: flex;
+}
+.layer-2:hover+.dropdown2 {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    transition:  all 0.5s ease-in-out;
+    height: auto;
+    opacity: 1;
+    display: flex;
+}
+
+.dropdown2:hover {
+    /* gap: 10px; */
+    transition: all 0.5s  ease-in;
+    height: auto;
+    opacity: 1;
+    display: flex;
 }
 
 .ham-layer-1 {
@@ -300,15 +325,16 @@ p {
     padding-right:;
 } */
 .layer-1:hover+.dropdown {
-    display: flex;
-    flex-direction: column;
     /* gap: 10px; */
+    padding: 0;
+    height:auto;
+    background-color: var(--primary-color);
+    opacity: 1;
 
 }
 
 
 .dropdown li button {
-    text-transform: uppercase;
     display: inline-block;
     text-align: center;
     font-weight: bold;
@@ -337,7 +363,9 @@ p {
 }
 
 .ex:hover+.dropdown2 {
-    display: grid;
+    transition:  0.8s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    height: auto;
+    opacity: 1;
 
 }
 
@@ -371,23 +399,15 @@ p {
 }
 
 .dropdown:hover {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     /* gap: 10px; */
     padding: 0;
+    height:auto;
+    background-color: var(--primary-color);
+    opacity: 1;
 }
 
-.layer-2:hover+.dropdown2 {
-    display: flex;
-    flex-direction: column;
-    /* gap: 10px; */
-}
-
-.dropdown2:hover {
-    display: flex;
-    flex-direction: column;
-    /* gap: 10px; */
-}
 
 .main-navbar ul li .dropdown li {
     display: block;
